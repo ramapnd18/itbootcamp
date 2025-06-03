@@ -70,9 +70,8 @@ if st.button("Prediksi"):
         st.error("Pasien diprediksi Beresiko memiliki Penyakit Jantung.")
 
     # Tampilkan probabilitas untuk kedua kelas
-    st.write(f"**Probabilitas Tidak Memiliki Penyakit Jantung:** {prob_no_disease:.2f}%")
-    st.write(f"**Probabilitas Memiliki Penyakit Jantung:** {prob_disease:.2f}%")
+    st.write(f"*Probabilitas Tidak Memiliki Penyakit Jantung:* {prob_no_disease:.2f}%")
+    st.write(f"*Probabilitas Memiliki Penyakit Jantung:* {prob_disease:.2f}%")
 
 # Add a note
-st.markdown("**Catatan:** Ini adalah alat prediksi berbasis model Random Forest yang dilatih dengan SMOTE dan GridSearchCV. Konsultasikan dengan tenaga medis profesional untuk saran medis.")
-
+st.markdown("*Catatan:* Ini adalah alat prediksi berbasis model Random Forest yang dilatih dengan SMOTE dan GridSearchCV. Konsultasikan dengan tenaga medis profesional untuk saran medis.")
